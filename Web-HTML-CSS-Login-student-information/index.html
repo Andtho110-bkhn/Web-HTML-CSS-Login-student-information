@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="addRow.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Thông Tin Trai đẹp Bách Khoa</title>
+</head>
+
+<body>
+	<div id="layout">
+		<!-- 	Block header	 -->
+		<div id="header">
+			<div class="headerleft">
+				<h1><img src="images/logo-hust.png"></h1>
+				<p>Thông tin trai đẹp bách khoa</p>
+			</div>
+			<div class="headerright">
+				<ul>
+					<li><button type="button"> Đăng ký </button></li>
+					<li><button type="button"> Đăng nhập </button></li>
+				</ul>
+			</div>
+			<div class="headercenter">
+				<h2>HỆ THỐNG THÔNG TIN SINH VIÊN<br />
+					<p>Đại Học Bách Khoa Hà Nội</p>
+				</h2>
+			</div>
+		</div>
+
+		<!-- Block global navigation -->
+		<div id="globalnavi">
+			<ul>
+				<li><a href="#">Trang Chủ</a></li>
+				<li><a href="#">Giới Thiệu</a></li>
+				<li><a href="#">Khoa Viện</a></li>
+				<li><a href="#">Danh Sách</a></li>
+				<li><a href="#">Giảng Viên</a></li>
+				<li><a href="#">Sinh Viên</a></li>
+				<li class="last"><a href="#">Liên Hệ</a></li>
+			</ul>
+		</div>
+
+		<!-- Block pagebody -->
+		<div id="pagebody">
+			<!--<h2> Danh sách động gay bách khoa </h2> -->
+			<ul>
+				<li>Họ và Tên: <input type="text" name="name" placeholder="Nhập họ và tên" id="fullname" /></li><br />
+				<li>Giới Tính: <input type="text" name="gender" placeholder="Nhập giới tính" id="gender" /></li><br />
+				<li>Ngày Sinh: <input type="date" name="birthday" placeholder="Nhập ngày sinh" id="birthday" /></li>
+				<br />
+				<li>Ghi Chú: <input type="text" name="note" placeholder="Nhập ghi chú nếu có" id="note" /></li><br />
+				<li>Nhấn <button onclick="addRow();"> Thêm Thông Tin </button></li><br />
+			</ul>
+
+			<table>
+				<tr>
+					<th>Họ và Tên</th>
+					<th>Giới Tính</th>
+					<th>Ngày Sinh</th>
+					<th>Ghi Chú</th>
+				</tr>
+
+				<tr>
+					<td>Nguyễn Văn A</td>
+					<td>nam</td>
+					<td>2019-01-01</td>
+					<td>x</td>
+				</tr>
+
+				<tr>
+					<td>Lê Thị B</td>
+					<td>nữ</td>
+					<td>2019-01-01</td>
+					<td>x</td>
+				</tr>
+
+				<tr>
+					<td>Trần Văn C</td>
+					<td>nam</td>
+					<td>2019-01-01</td>
+					<td>x</td>
+				</tr>
+
+				<tr>
+					<td>Trịnh Thị D</td>
+					<td>nữ</td>
+					<td>2019-01-01</td>
+					<td>x</td>
+				</tr>
+
+				<tr>
+					<td>Cao Văn E</td>
+					<td>nam</td>
+					<td>2019-01-01</td>
+					<td>x</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Block footer -->
+		<div id="footer">
+			
+			<div class="footerleft">
+				<ul>
+					<p>Trường Đại học Bách Khoa Hà Nội </p>
+					<p>Địa chỉ: 1 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội</p>
+					<p>Điện thoại: 0123456789 </p>
+					<p>Email: <a href="Daihocbachkhoahanoi@gmail.com">Daihocbachkhoahanoi@gmail.com</a></p>
+				</ul>
+			</div>
+
+			<div class="footerright">
+				<ul>
+					<p>Copyright (c) 2019 Đại Học Bách Khoa Hà Nội Việt Nam</p>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+*{
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+img{
+	width: 120px;
+	border: none;
+	vertical-align: top;
+}
+
+div#layout{
+	margin: 5px 10% 30px;
+	border: 1px solid #a3a2a3;
+	background-color: whitesmoke;
+	background-attachment: fixed;
+}
+
+div#header{
+	height: 200px;
+	padding: 5px;
+	background-image: 
+	url("https://cdn.dribbble.com/users/32512/screenshots/3171495/artificial_intelligent_product_by_gleb_2.gif");
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #cccccc;
+}
+
+div.headerleft{
+	float: left;
+	border: none;
+}
+div.headerleft h1{
+	margin-bottom: 5px;
+}
+div.headerleft p{
+	color: red;
+}
+
+div.headerright{
+	float: right;
+}
+div.headerright ul{
+	margin: right;
+	text-align: right;
+}
+div.headerright ul li{
+	display: inline;
+}
+div.headercenter{
+	color: red;
+	display: inline-block;
+	text-align: center;
+	padding-top: 50px;
+}
+div.headercenter h2{
+	font-size: 160%;
+}
+div.headercenter h2 p{
+	font-size: 60%;
+}
+
+div#globalnavi{
+	clear: both;
+}
+div#globalnavi ul{
+	background: url(https://img2.thuthuatphanmem.vn/uploads/2018/12/30/mau-background-cuc-dep_110638631.jpg) repeat-x;
+    border: 1px solid #cccccc;
+}
+
+div#globalnavi ul li{
+    border-right: 2px solid #ffffff;
+    display: inline;
+    padding: 2px 20px;
+}
+
+div#globalnavi ul li.last {
+    border-right: none;
+    padding-right: 0;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+table{
+	width: 100%;
+	background-color: #cccccc;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+div#footer{
+	padding: 1px 0;
+	margin-top: 1px;
+	vertical-align: top;
+}
+
+div.footerleft{
+	padding-left: 1px;
+	margin: auto;
+	float: left;
+}
+
+div.footerright{
+	padding: 70px 40px 0px 0px;
+	margin: auto;
+	float: right;
+}
+
+
